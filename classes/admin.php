@@ -25,7 +25,7 @@ class EDD_GIT_Download_Updater_Admin
 		add_action( 'admin_head', array( $this, 'init' ) );
 
 		// Save our Use Git setting.
-		add_action( 'save_post', array( $this, 'save_post' ), 9999 );
+		//add_action( 'save_post', array( $this, 'save_post' ), 9999 );
 
 		/* GitHub */
 

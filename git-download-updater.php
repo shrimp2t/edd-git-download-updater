@@ -3,7 +3,7 @@
 Plugin Name: Easy Digital Downloads - Git Update Downloads
 Plugin URI: http://famethemes.com
 Description: Update Download files and changelog directly from GitHub
-Version: 99.00.01
+Version: 9.69.6
 Author: FameThemes, Shrimp2t
 Author URI: http://famethemes.com
 */
@@ -17,7 +17,7 @@ if ( ! defined( 'EDD_GIT_PLUGIN_URL' ) ) {
 }
 
 if ( ! defined( 'EDD_GIT_VERSION' ) ) {
-	define( 'EDD_GIT_VERSION', '1.0.4' );
+	define( 'EDD_GIT_VERSION', '9.69.6' );
 }
 
 class EDD_GIT_Download_Updater {
